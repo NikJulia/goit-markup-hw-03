@@ -1,0 +1,215 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --primary-bg-color: #e5e5e5;
+    --secondary-bg-color: #f5f4fa;
+    --secondary-text-color: #fff;
+    --footer-bg-color: #2f303a;
+    --primary-btn-color: #212121;
+    --secondary-btn-color: #2196f3;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    background-color: var(--secondary-text-color);
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Logo */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.logo-start {
+    color: var(--secondary-btn-color);
+}
+
+.logo-end {
+    color: var(--secondary-text-color);
+}
+
+/* unordered list */
+.list {
+    list-style: none;
+}
+
+/* Nav menu */
+.site-nav .link {
+color: var(--primary-btn-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--secondary-btn-color);
+}
+
+.site-nav .link.current {
+    color: var(--secondary-btn-color);
+}
+
+.header-contacts .link{ 
+    color: var(--primary-text-color);
+}
+
+.header-contacts .link:hover, .header-contacts .link:focus {
+    color: var(--secondary-btn-color);
+}
+
+/* Footer */
+.footer-contacts {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--secondary-text-color);
+}
+
+.footer-contacts .link {
+    color: rgba(255,255,255,.6);
+}
+
+
+/* Home page */
+
+/* Hero Slider */
+.hero {
+    background-color: var(--footer-bg-color);
+}
+
+.hero .title{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+/* Main content */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+/* Особенности */
+.section-title.feature {
+    display: none;
+}
+
+.feature-list .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--title-text-color);
+}
+
+.feature-list .desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Команда */
+.section.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-list .title, 
+.team-list .position {
+    font-size: 16px;
+    line-height: 19px; 
+}
+
+.team-list .title {
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+
+.team-list .position {
+    font-weight: 400;
+}
+
+/* Links, buttons */
+.button {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    border: none;
+}
+
+.button.primary-btn {
+    background-color: var(--secondary-btn-color);
+    color: var(--secondary-text-color);
+}
+
+.button.primary-btn:hover, 
+.button.primary-btn:focus {
+    color: var(--primary-btn-color);
+    cursor: pointer;
+    background-color: var(--secondary-bg-color);
+}
+
+.button.secondary-btn {
+    color: var(--primary-btn-color);
+    background-color: var(--secondary-bg-color);
+}
+
+.button.secondary-btn:hover, 
+.button.secondary-btn:focus {
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    background-color: var(--secondary-btn-color);
+}
+
+
+/* Portfolio tab */
+
+.portfolio-title, 
+.filters-title, 
+.projects-title {
+    display: none;
+}
+
+.projects .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em; 
+    color: var(--title-text-color);
+}
+
+.projects .type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--primary-text-color);
+}
