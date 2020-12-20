@@ -159,9 +159,7 @@ img {
     color: rgba(255,255,255,.6);
 }
 
-
 /* Home page */
-
 /* Hero Slider */
 .hero {
     text-align: center;
@@ -318,9 +316,7 @@ img {
 
 
 /* Portfolio tab */
-
 /* Фильтры */
-
 .container.filters {
     margin-bottom: 16px;
 }
@@ -339,7 +335,6 @@ img {
 }
 
 /* Проекты */
-
 .projects {
     display: flex;
     flex-wrap: wrap;
